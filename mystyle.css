@@ -1,0 +1,58 @@
+html, 
+body {
+    height: 100%;
+}
+p {
+    transition: all .2s ease-in-out;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col {
+    float:left;
+    text-align: center;
+    width: 14%;
+    height: 10%;
+    transition: all .2s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a {
+    background-color: darkviolet;
+}
+.b {
+    background-color: mediumpurple;
+}
+.c {
+    background-color: blue;
+}
+.d {
+    background-color: green;
+}
+.e {
+    background-color: yellow;
+}
+.f {
+    background-color: orange;
+}
+.g {
+    background-color: red;
+}
+.col:hover {
+    transform: scale(1.25) translateY(20%);
+}
+.spacer{
+    height: 10%;
+}
+.main {
+    background-color: aqua;
+    height: 80%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p:hover {
+    color: white;
+}
